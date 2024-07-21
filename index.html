@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#books">Books</a>
+        <a href="#register">Register</a>
+        <a href="#books">about</a>
+        <a href="#books">Contact</a>
+        
+    </nav>
+
+    <section id="books">
+        <h1>Book List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+      <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="">Book title 1</a>
+                    
+                    
+                        <table>
+                            <tr><td>Publication Date:2023-01-01</td></tr>
+                            <tr><td>Page Count:300</td></tr>
+                            <tr><td>ISBN:123-456-789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author A</td>
+                    <td>Fiction</td>
+                    <td>Available</td>
+                </tr>
+            <tr>
+                    <td>2</td>
+                    <td><a href="">Book title 2</a>
+        
+                        <table>
+                            <tr><td>Publication Date:2022-05-15</td></tr>
+                            <tr><td>Page Count:250</td></tr>
+                            <tr><td>ISBN:987-654-321</td></tr>
+                        </table>
+                    </td>
+                    <td>Author B</td>
+                    <td>Non-Fiction</td>
+                    <td>Checked Out</td>
+                </tr>
+                <td>3</td>
+                    <td><a href="">Book title 3</a>
+                   
+                        <table>
+                            <tr><td>Publication Date:2021-11-10</td></tr>
+                            <tr><td>Page Count:200</td></tr>
+                            <tr><td>ISBN:321-654-987</td></tr>
+                        </table>
+                    </td>
+                    <td>Author C</td>
+                    <td>Mystery</td>
+                    <td>Available</td>
+                </tr>
+              
+                    <td>4</td>
+                    <td><a href="">Book title 4</a>
+                    
+                        <table>
+                            <tr><td>Publication Date:2020-07-22</td></tr>
+                            <tr><td>Page Count:350</td></tr>
+                            <tr><td>ISBN:741-852-963</td></tr>
+                        </table>
+                    </td>
+                    <td>Author D</td>
+                    <td>Science Fiction</td>
+                    <td>Available</td>
+                </tr>
+                <td>5</td>
+                    <td><a href="">Book title 5</a>
+                   
+                        <table>
+                            <tr><td>Publication Date:2019-03-30</td></tr>
+                            <tr><td>Page Count:275</td></tr>
+                            <tr><td>ISBN:852-963-741</td></tr>
+                        </table>
+                    </td>
+                    <td>Author E</td>
+                    <td>Fantasy</td>
+                    <td>Checked Out</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="register">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="Enter your first name" name="first-name" required>
+            
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Enter your last name" name="last-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" name="email" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age" name="age" min="5" max="100" required>
+            
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Enter your confirm password" name="confirm-password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
+
+
+
